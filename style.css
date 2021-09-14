@@ -39,7 +39,7 @@ body{
     display: none;
 }
 
-@media (max-width: 700px){
+@media (max-width: 600px){
     /* Home section styling start */
     .home-section{
         width: 100%;
@@ -321,7 +321,7 @@ body{
     .playlist.active{
         right: 0;
     }
-
+ 
     .title{
         font-weight: 300;
         font-size: 40px;

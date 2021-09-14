@@ -23,8 +23,8 @@ let songs = [
     },
 
     {
-        name: 'Lie',
-        path: 'Assets/musics/Kizz-Daniel-Lie.mp3',
+        name: 'More',
+        path: 'Assets/musics/Oxlade-More.mp3',
         artist: 'Oxlade',
         cover: 'Assets/images/oxlade.jpeg'
     }
