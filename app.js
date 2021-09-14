@@ -130,7 +130,7 @@ const setMusic =  (i) => {
     }, 3000);
     currentMusicTime.innerHTML = '00 : 00';
     queue.forEach(item => item.classList.remove('active'));
-    queue[currentMusic].classList.add('actuve');
+    queue[currentMusic].classList.add('active');
 }
 
 setMusic(0);
@@ -217,7 +217,7 @@ volumeSlider.addEventListener('input', () => {
 })
 
 
-queue.forEach((item, 1) => {
+queue.forEach((item, i) => {
     item.addEventListener('click', () => {
         setMusic(i);
         playBtn.click();
